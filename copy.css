@@ -600,13 +600,11 @@ nav ul li a:hover{
 
 @media (max-width: 460px){
   .services{
-    width: 100%;
-    height: fit-content;
-    background: url(images/red-paint-brushstroke-textured.jpg);
+   
     background-size: auto;
     background-position: center;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+   
     padding: 3em 0px 0px 0px;
   }
   
