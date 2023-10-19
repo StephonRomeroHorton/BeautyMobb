@@ -601,7 +601,7 @@ nav ul li a:hover{
 @media (max-width: 460px){
   .services{
    
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
    background-repeat: no-repeat;
