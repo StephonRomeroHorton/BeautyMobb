@@ -602,8 +602,8 @@ nav ul li a:hover{
   .services{
     width: 100%;
     height: fit-content;
-    background: url(images/red-paint-brushstroke-textured.jpg);
-    background-size: 4.8rem cover;
+    background: url(images/red-paint-small-devices.jpg);
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     padding: 3em 0px 0px 0px;
