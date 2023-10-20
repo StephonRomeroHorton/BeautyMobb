@@ -600,9 +600,9 @@ nav ul li a:hover{
 
 @media (max-width: 460px){
   .services{
-   background: url(images/red-paint-small-devices.jpg);
+ 
     background-size: cover;
-    background-position: center;
+   
   
    background-repeat: no-repeat;
     padding: 3em 0px 0px 0px;
