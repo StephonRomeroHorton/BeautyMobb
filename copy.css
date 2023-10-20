@@ -463,6 +463,20 @@ nav ul li a:hover{
 
 /* services section container */
 
+
+
+
+/*
+.services{
+  width: 100%;
+  height: fit-content;
+  background: url(images/red-paint-brushstroke-textured.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+*/
+
 .services {
   width: 100%;
   height: fit-content;
@@ -482,18 +496,6 @@ nav ul li a:hover{
   background-attachment: fixed;
   z-index: -1; /* Place it behind the content */
 }
-
-
-/*
-.services{
-  width: 100%;
-  height: fit-content;
-  background: url(images/red-paint-brushstroke-textured.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-*/
 /* container for all services */
 .styles-container{
   display: grid;
@@ -625,7 +627,7 @@ nav ul li a:hover{
 
 @media (max-width: 460px){
   .services{
- background-attachment:fixed;
+
     background-size: cover;
    
   
