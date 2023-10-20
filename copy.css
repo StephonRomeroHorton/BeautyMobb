@@ -57,6 +57,7 @@ nav{
   width: 100%;
   height: 4em;
   position: fixed;
+  z-index: 1000;
   box-shadow: var(--box-shadow);
 }
 /*  logo / name */
@@ -461,6 +462,29 @@ nav ul li a:hover{
 /* services section starts here */
 
 /* services section container */
+
+.services {
+  width: 100%;
+  height: fit-content;
+  background: transparent; /* Set the background to transparent */
+  position: relative; /* Make it a relatively positioned container */
+}
+.services::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(images/red-paint-brushstroke-textured.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: -1; /* Place it behind the content */
+}
+
+
+/*
 .services{
   width: 100%;
   height: fit-content;
@@ -469,6 +493,7 @@ nav ul li a:hover{
   background-position: center;
   background-attachment: fixed;
 }
+*/
 /* container for all services */
 .styles-container{
   display: grid;
@@ -600,7 +625,7 @@ nav ul li a:hover{
 
 @media (max-width: 460px){
   .services{
- 
+ background-attachment:fixed;
     background-size: cover;
    
   
@@ -716,6 +741,7 @@ footer .div2 span{
  height: 100%;
  overflow-y: scroll;
  background: var(--white);
+ z-index: 11000;
 
 }
 #booking-section .style{
