@@ -466,7 +466,7 @@ nav ul li a:hover{
 
 
 
-/*
+
 .services{
   width: 100%;
   height: fit-content;
@@ -479,8 +479,8 @@ nav ul li a:hover{
   background-position: center;
   background-attachment: fixed;
 }
-*/
 
+/*
 .services {
   width: 100%;
   height: fit-content;
@@ -503,7 +503,7 @@ nav ul li a:hover{
   background-attachment: fixed;
   z-index: -1; 
 }
-
+*/
 /* container for all services */
 .styles-container{
   display: grid;
