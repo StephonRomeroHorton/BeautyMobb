@@ -466,22 +466,26 @@ nav ul li a:hover{
 
 
 
-/*
+
 .services{
   width: 100%;
   height: fit-content;
   background: url(images/red-paint-brushstroke-textured.jpg);
+ 
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
-*/
 
+/*
 .services {
   width: 100%;
   height: fit-content;
-  background: transparent; /* Set the background to transparent */
-  position: relative; /* Make it a relatively positioned container */
+  background: transparent; 
+  position: relative; 
 }
 .services::before {
   content: "";
@@ -494,8 +498,9 @@ nav ul li a:hover{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  z-index: -1; /* Place it behind the content */
+  z-index: -1; 
 }
+*/
 /* container for all services */
 .styles-container{
   display: grid;
