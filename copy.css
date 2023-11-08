@@ -922,9 +922,11 @@ cursor: pointer;
 }
 .time::-webkit-scrollbar{
   width: .5rem;
+  cursor: pointer;
 }
 .time::-webkit-scrollbar-track{
   background-color: rgb(237, 182, 206);
+  cursor: pointer;
 }
 .time::-webkit-scrollbar-thumb{
   background-color: var(--primary-color);
